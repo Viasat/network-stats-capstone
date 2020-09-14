@@ -1,3 +1,5 @@
-Data files generated with network-stats.py go here.
+# network-stats-capstone
 
-Data should be labeled with the actions happening when the capture was taken.
+This repo is for artifacts to support Viasat's senior capstone projects for UCSD HDSI.
+
+The two main types of artifacts are the source material for the project website, and example data sets for training models.
