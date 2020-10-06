@@ -1,14 +1,12 @@
-# VPN X-Ray
-
-## Introduction
+# Introduction
 
 Can machine learning predict when a network user is streaming video through a VPN?
 
-## Fall 2020 Syllabus
+# Fall 2020 Syllabus
 [Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
 
 
-## Background Information
+# Background Information
 The primary tool used for data collection will be an open-source python script provided by Viasat called [Network-Stats](https://github.com/viasat/network-stats). This tool allows a student to connect to a local interface on their machine and then spits out second-by-second data for how many bytes and packets flow in each direction (upload/download) for each ‘connection’ (connection here means the 5-tuple of local and remote ip addresses and ports, as well as the protocol bit).
 
 Students will need to become familiar with the basics of networking, how a VPN works, and how video streaming works.  **Here are a few resources to get started:** 
@@ -33,7 +31,7 @@ Wikipedia pages for TCP, UDP, and OSI 7 layer model
 [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)
 
 
-## First Quarter Assignments/Goals:
+# First Quarter Assignments/Goals:
 The first task will be to say whether or not a given VPN session contains streaming (Netflix, YouTube, etc.). If this works well, we can start getting more specific by identifying the streaming provider. We might also be able to identify other kinds of traffic like VoIP/VTC or web browsing.
 
 The students can simply fire up `network-stats`, start watching their favorite Netflix show, and then look at the data generated.  Doing this enough times should start revealing the structure of this signature. Once the signature is better understood, students can repeat the experiment, but do so inside a VPN tunnel ([provided by UCSD](https://blink.ucsd.edu/technology/network/connections/off-campus/VPN/index.html)) and notice the signature distortion, if any. They can also add noise to the signal by doing other things while watching tv, like browsing the web, catching up on email or interacting with social media. 
@@ -43,23 +41,23 @@ How much noise does this really add? When is the initial signature no longer rec
 The hope is that the signature created by a given activity on the internet – like streaming – should be unique enough as to distinguish it from other activities. If we can learn these signatures, and the overhead of the VPN tunnel and other ‘noise’ present in the tunnel don’t significantly alter the signature, then we should be able to say whether or not a given activity is happening within a given tunnel.
 
 1. Preparation:
-    * Work through resources provided in the background information 
-    * Read documentation and install Network-Stats software
-        * [https://github.com/Viasat/network-stats](https://github.com/Viasat/network-stats)
+  * Work through resources provided in the background information 
+  * Read documentation and install Network-Stats software
+    * [https://github.com/Viasat/network-stats](https://github.com/Viasat/network-stats)
 2. Create data sets:
-    * Use Network-Stats on 5-minute video segments
-    * Explore different providers
-    * Explore different content types/formats/resolutions (tv shows, movies, codec, etc.)
-    * With and without VPN
-    * With and without “noise” (content only vs. content while web browsing, gaming, etc.)
+  * Use Network-Stats on 5-minute video segments
+  * Explore different providers
+  * Explore different content types/formats/resolutions (tv shows, movies, codec, etc.)
+  * With and without VPN
+  * With and without “noise” (content only vs. content while web browsing, gaming, etc.)
 3. Analyze:
-    * Determine signature of video in content only mode
-    * Look at steady state vs. start up buffering
-    * Look at rebuffers/skips ahead in content 
-    * Characterize packet and byte sizes and counts, interpacket intervals, etc.
-    * Repeat steps with noise present (video + web browsing, etc.)
+  * Determine signature of video in content only mode
+  * Look at steady state vs. start up buffering
+  * Look at rebuffers/skips ahead in content 
+  * Characterize packet and byte sizes and counts, interpacket intervals, etc.
+  * Repeat steps with noise present (video + web browsing, etc.)
 4. Machine Learning
-    * Build a classifier to label streaming vs no-streaming without noise
-    * Build a classifier to label streaming vs no-streaming with noise
+  * Build a classifier to label streaming vs no-streaming without noise
+  * Build a classifier to label streaming vs no-streaming with noise
 5. Ethical considerations:
-    * People use VPNs for a reason. What issues arise when we start weakening the ‘P’ in VPN? How far can we take this technology? What should we disclose?
+  * People use VPNs for a reason. What issues arise when we start weakening the ‘P’ in VPN? How far can we take this technology? What should we disclose?
