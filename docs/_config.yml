@@ -1,2 +1,4 @@
 title: VPN X-Ray HDSI Capstone Project
 theme: jekyll-theme-cayman
+github:
+  is_project_page: false
