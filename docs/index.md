@@ -4,10 +4,14 @@
 
 Can machine learning predict when a network user is streaming video through a VPN?
 
+## Fall 2020 Syllabus
+[Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
+
+
 ## Background Information
 The primary tool used for data collection will be an open-source python script provided by Viasat called [Network-Stats](https://github.com/viasat/network-stats). This tool allows a student to connect to a local interface on their machine and then spits out second-by-second data for how many bytes and packets flow in each direction (upload/download) for each ‘connection’ (connection here means the 5-tuple of local and remote ip addresses and ports, as well as the protocol bit).
 
-Students will need to become familiar with the basics of networking, how a VPN works, and how video streaming works.  Here are a few resources to get started: 
+Students will need to become familiar with the basics of networking, how a VPN works, and how video streaming works.  **Here are a few resources to get started:** 
 
 ### General Networking:
 PBS has created a series on computer networking that does a good job of explaining the what and why, rather than getting caught in the details on the how:  
@@ -32,7 +36,7 @@ Wikipedia pages for TCP, UDP, and OSI 7 layer model
 ## First Quarter Assignments/Goals:
 The first task will be to say whether or not a given VPN session contains streaming (Netflix, YouTube, etc.). If this works well, we can start getting more specific by identifying the streaming provider. We might also be able to identify other kinds of traffic like VoIP/VTC or web browsing.
 
-The students can simply fire up Network-Stats, start watching their favorite Netflix show, and then look at the data generated.  Doing this enough times should start revealing the structure of this signature. Once the signature is better understood, students can repeat the experiment, but do so inside a VPN tunnel ([provided by UCSD](https://blink.ucsd.edu/technology/network/connections/off-campus/VPN/index.html)) and notice the signature distortion, if any. They can also add noise to the signal by doing other things while watching tv, like browsing the web, catching up on email or interacting with social media. 
+The students can simply fire up `network-stats`, start watching their favorite Netflix show, and then look at the data generated.  Doing this enough times should start revealing the structure of this signature. Once the signature is better understood, students can repeat the experiment, but do so inside a VPN tunnel ([provided by UCSD](https://blink.ucsd.edu/technology/network/connections/off-campus/VPN/index.html)) and notice the signature distortion, if any. They can also add noise to the signal by doing other things while watching tv, like browsing the web, catching up on email or interacting with social media. 
 
 How much noise does this really add? When is the initial signature no longer recognizable? These questions will have to be answered in more precise terms as the students use ML techniques to build classifiers to automatically detect these signatures.
 
