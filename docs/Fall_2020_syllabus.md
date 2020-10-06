@@ -1,5 +1,10 @@
+---
+layout: default
+title: VPN X-Ray Fall 2020 Syllabus
+description:  Week by week summary of assignments and goals
+---
 
-# FALL 2020 Syllabus
+[(back to home)](./)
 
 ## Week 1: Project overview and course expectations
 Oct 5 - 9
