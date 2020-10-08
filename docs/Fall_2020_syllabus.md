@@ -12,6 +12,10 @@ Oct 5 - 9
 2. Install [Wireshark](https://www.wireshark.org/)
 3. Capture some packets
 
+### Week 1 Participation Homework:
+Annotate a few screenshots of your Wireshark packet captures with your observations and understanding about what they show.  We suggest creating a presentation in PowerPoint or similar where you can paste your screenshots and overlay your annotations in text boxes with arrows pointing to the relevant part of the capture.
+
+
 ## Week 2: Background on network-stats
 Oct 12 - 16
 1. Clone [network-stats](https://github.com/viasat/network-stats) repo

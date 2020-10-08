@@ -6,6 +6,24 @@ Can machine learning predict when a network user is streaming video through a VP
 [Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
 
 
+# Mentorship and Guidance
+## Discussion Sections
+**Wednesdays 10:00a - 10:50a Pacific**.  We meet in Zoom.
+
+## Office Hours
+
+### TA Office Hours
+Ria Aggarwal is the TA for this course, and she is also available during this time to respond to methodology issues (computer issues, HW submission issues, grading questions, etc) as well as technical questions.
+
+### Viasat Office Hours
+The office hours for this capstone project will be **Fridays 9:00a - 11:00a** Pacific.  During that time there will be 1+ Viasat mentors available to quickly respond to questions posted in Slack, and/or to jump on Slack/Zoom/etc calls as needed.
+
+During the week you may also use Slack to ask questions in the group channel, and/or to any of us privately.  We may not be as quick to respond due to meetings and other obligations, but we will respond in a reasonable amount of time.  Also, please use each other to ask and answer questions.
+
+We are all in this together!
+
+
+
 # Background Information
 The primary tool used for data collection will be an open-source python script provided by Viasat called [Network-Stats](https://github.com/viasat/network-stats). This tool allows a student to connect to a local interface on their machine and then spits out second-by-second data for how many bytes and packets flow in each direction (upload/download) for each ‘connection’ (connection here means the 5-tuple of local and remote ip addresses and ports, as well as the protocol bit).
 
