@@ -26,7 +26,7 @@ Oct 12 - 16
 Zip and upload your network-stats CSV captures to the Google Drive (link in Slack - do not share or post publicly).
 
 The CSV and Zip filenames must follow this convention:  
-`<username>-<streaming provider>-<vpn/novpn>-<platform>-<clean/noisy>-<date>.<csv/zip>`
+`<username>-<streaming provider>-<playback speed>-<vpn/novpn>-<platform>-<clean/noisy>-<date>.<csv/zip>`
 
 * `username` = your UCSD username
 * `streaming provider` = name of streaming provider. If applicable, use from this list:
@@ -40,6 +40,7 @@ The CSV and Zip filenames must follow this convention:
   * youtube
 
 *If your streaming provider is not in this list, that's fine - identify it and we can add it to this list.*
+* `playback speed` = Playback speed, examples: 0.25x, 1x, 1.5x, 2x
 * `vpn/novpn` = identify whether you are using a VPN tunnel or not
 * `platform` = mac, windows, linux
 * `clean/noisy` = Are you performing other internet activities while streaming?  "Clean" means you are only streaming video.  "Noisy" means you are doing other online activities while streaming, thus adding additional network traffic.
