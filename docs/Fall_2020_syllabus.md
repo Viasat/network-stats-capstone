@@ -22,6 +22,39 @@ Oct 12 - 16
 2. Create 5 minute chunks of network-stats data and upload to Google Drive with correct nomenclature
 3. Begin exploring the data (with your favorite tools... Tableau, Jupyter notebook, etc)
 
+### Week 2 Participation Homework:  **<mark>NEW!</mark>**
+Zip and upload your network-stats CSV captures to the Google Drive (link in Slack - do not share or post publicly).
+
+The CSV and Zip filenames must follow this convention:  
+`<username>-<streaming provider>-<vpn/novpn>-<platform>-<clean/noisy>-<date>.<csv/zip>`
+
+* `username` = your UCSD username
+* `streaming provider` = name of streaming provider. If applicable, use from this list:
+  * amazonprime
+  * disneyplus
+  * espnplus
+  * hbomax
+  * hulu
+  * netflix
+  * vimeo
+  * youtube
+
+*If your streaming provider is not in this list, that's fine - identify it and we can add it to this list.*
+* `vpn/novpn` = identify whether you are using a VPN tunnel or not
+* `platform` = mac, windows, linux
+* `clean/noisy` = Are you performing other internet activities while streaming?  "Clean" means you are only streaming video.  "Noisy" means you are doing other online activities while streaming, thus adding additional network traffic.
+* `date` - date you started the packet capture in yyyymmdd format
+
+#### **Video Streaming Criteria**
+* Nothing live (youtube live, twitch)
+* Long form (> 5 mins videos) only.  No TikTok, Instagram, etc
+* No mobile devices (phones, tablets)
+
+   
+     
+
+
+
 ## Week 3: Analyze network-stats data
 Oct 19 - 23
 1. Capture network-stats data for YouTube at different resolution settings
