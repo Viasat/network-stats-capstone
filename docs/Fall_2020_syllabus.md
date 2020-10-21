@@ -28,7 +28,7 @@ Oct 12 - 16
 Zip and upload your network-stats CSV captures to the Google Drive (link in Slack - do not share or post publicly).
 
 The CSV and Zip filenames must follow this convention:  
-`<username>-<streaming provider>[-<quality>]-<playback speed>-<vpn/novpn>-<platform>-<clean/noisy>-<date>.<csv/zip>`
+`<username>-<streaming provider>`<mark>**`[-<quality>]`**</mark>`-<playback speed>-<vpn/novpn>-<platform>-<clean/noisy>-<date>.<csv/zip>`
 
 * `username` = your UCSD username
 * `streaming provider` = name of streaming provider. If applicable, use from this list:
@@ -42,7 +42,7 @@ The CSV and Zip filenames must follow this convention:
   * youtube
 
 *If your streaming provider is not in this list, that's fine - identify it and we can add it to this list.*
-* `quality` = **OPTIONAL - OMIT IF NOT APPLICABLE** Some video providers such as YouTube and Vimeo let you choose the playback quality.  If you choose a specific video resolution quality, identify it here.  Use the same value you see in the provider's quality menu.  Examples:
+* **<mark>NEW!</mark>** `quality` = **OPTIONAL - OMIT IF NOT APPLICABLE** Some video providers such as YouTube and Vimeo let you choose the playback quality.  If you choose a specific video resolution quality, identify it here.  Use the same value you see in the provider's quality menu.  Examples:
   * **YouTube** - 144p, 240p, 480p, 720p60, 1080p60, 1440p60, 2160p60
   * **Vimeo** - 360p, 540p, 720p, 1080p, 2K, 4K
   * If you find others, let us know in the Slack and we'll update this document!
