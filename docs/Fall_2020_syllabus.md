@@ -4,7 +4,14 @@ title: VPN X-Ray Fall 2020 Syllabus
 description:  Week by week summary of assignments and goals
 ---
 
-[(back to home)](./)
+### [Home](./)
+
+<br />
+
+## Jump to [Current week!](#week-3-analyze-network-stats-data)
+
+<br />
+<br />
 
 ## Week 1: Project overview and course expectations
 Oct 5 - 9
