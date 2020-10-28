@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-3-analyze-network-stats-data)
+## Jump to [Current week!](#week-4-updated-exploring-the-negative-use-case)
 
 <br />
 <br />
@@ -55,7 +55,7 @@ The CSV and Zip filenames must follow this convention:
   * vimeo
   * youtube  
 *If your streaming provider is not in this list, that's fine - identify it and we can add it to this list.*
-* **<mark>NEW!</mark>** `quality` = **OPTIONAL - OMIT IF NOT APPLICABLE** Some video providers such as YouTube and Vimeo let you choose the playback quality.  If you choose a specific video resolution quality, identify it here.  Use the same value you see in the provider's quality menu.  Examples:
+* `quality` = **OPTIONAL - OMIT IF NOT APPLICABLE** Some video providers such as YouTube and Vimeo let you choose the playback quality.  If you choose a specific video resolution quality, identify it here.  Use the same value you see in the provider's quality menu.  Examples:
   * **YouTube** - 144p, 240p, 480p, 720p60, 1080p60, 1440p60, 2160p60
   * **Vimeo** - 360p, 540p, 720p, 1080p, 2K, 4K
   * If you find others, let us know in the Slack and we'll update this document!
@@ -65,14 +65,14 @@ The CSV and Zip filenames must follow this convention:
 * `clean/noisy` = Are you performing other internet activities while streaming?  "Clean" means you are only streaming video.  "Noisy" means you are doing other online activities while streaming, thus adding additional network traffic.
 * `date` - date you started the packet capture in yyyymmdd format
 
-**<mark>NEW!</mark>**  If you collect multiple captures on the dame day (i.e., all the labels in the filename match), append an incrementing lower-case letter suffix to the filename.  E.g., `...20201021a.csv`, `...20201021b.csv`, `...20201021c.csv`, etc.
+If you collect multiple captures on the dame day (i.e., all the labels in the filename match), append an incrementing lower-case letter suffix to the filename.  E.g., `...20201021a.csv`, `...20201021b.csv`, `...20201021c.csv`, etc.
 
 
 #### **Video Streaming Criteria**
 * Nothing live (youtube live, twitch)
 * Long form (> 5 mins videos) only.  No TikTok, Instagram, etc
 * No mobile devices (phones, tablets)
-* No 360° / VR videos **<mark>NEW!</mark>**
+* No 360° / VR videos
 
 <br />
 <br />
@@ -84,7 +84,7 @@ Oct 19 - 23
 2. Continue exploring the data from last week and compare to what is observed with YouTube at different resolution settings.
 
 
-### Week 3 Participation Homework:   **<mark>NEW!</mark>**
+### Week 3 Participation Homework:
 Capture multiple YouTube videos at different resolutions.  See the update to the CSV file naming convention above to capture the video quality in the filename.
 
 Using your visualization tool of choice (Jupyter/Python/Pandas, Tableau, etc) perform some exploratory data analysis of your new captures.
@@ -101,11 +101,18 @@ We are starting to do some preliminary feature engineering.  Through our observa
 <br />
 
 
-## Week 4: What is the typical pattern of video streaming WITHOUT vpn?
+## Week 4: **<mark>Updated!</mark>** Exploring the negative use case
 Oct 26 - 30  
-1. Look for patterns that suggest streaming is occuring (vs web browsing, etc) ***WITHOUT VPN***
-2. Feature engineer the pattern(s)
-3. Implement a machine learning algorithm to classify the occurrence of streaming
+1. Review and discuss analysis of streaming scenarios captured so far (VPN, no VPN, different providers, different video qualities, noisy vs. "clean")
+2. Discuss the negative use case - no video streaming (VPN and no VPN)
+
+### **<mark>NEW!</mark>** Week 4 Participation Homework
+1. Capture 15 minutes of general internet activity (no video streaming) without VPN
+2. Capture 15 minutes of general internet activity (no video streaming) with VPN.
+3. EDA your captures, and create a slide presentation with 2-3 visualizations for VPN and 2-3 visualizations for no VPN.  Annotate your charts with your observations.
+4. Consider your analysis from previous weeks.  Are there any notable differences?  What patterns in the data do you see?
+5. Upload your assignments to Canvas.
+
 
 <br />
 <br />
