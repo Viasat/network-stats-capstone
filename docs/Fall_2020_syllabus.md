@@ -101,18 +101,21 @@ We are starting to do some preliminary feature engineering.  Through our observa
 <br />
 
 
-## Week 4: **<mark>Updated!</mark>** Exploring the negative use case
+## Week 4: Exploring the negative use case
 Oct 26 - 30  
 1. Review and discuss analysis of streaming scenarios captured so far (VPN, no VPN, different providers, different video qualities, noisy vs. "clean")
 2. Discuss the negative use case - no video streaming (VPN and no VPN)
 
-### **<mark>NEW!</mark>** Week 4 Participation Homework
-1. Capture 15 minutes of general internet activity (no video streaming) without VPN
-2. Capture 15 minutes of general internet activity (no video streaming) with VPN.
-3. EDA your captures, and create a slide presentation with 2-3 visualizations for VPN and 2-3 visualizations for no VPN.  Annotate your charts with your observations.
-4. Consider your analysis from previous weeks.  Are there any notable differences?  What patterns in the data do you see?
-5. Upload your assignments to Canvas.
-
+> ### **<mark>UPDATED!</mark>** Week 4 Participation Homework
+> 1. Pull the latest version of network-stats from the git repo (https://github.viasat.com/Viasat/network-stats) and verify that it's working for you.
+>     * Report any weirdness in the Slack channel!
+> 2. Capture a total of **30 minutes** of general internet activity (no video streaming) without VPN.
+> 3. Capture a total of **30 minutes** of video streaming with VPN.
+> 4. EDA your captures, and create a slide presentation with 2-3 visualizations for general internet activity, and 2-3 visualizations for streaming.  Annotate your charts with your observations.
+> 5. Upload your assignments to Canvas.
+> 6. Zip all your CSV files and upload to the new "Good Data" subfolder in Google Drive.
+> 
+> **NOTE:**  30 minutes of data should be split into 6 CSV files each containing 5 minutes of capture data.
 
 <br />
 <br />
