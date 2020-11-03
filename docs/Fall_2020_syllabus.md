@@ -106,40 +106,51 @@ Oct 26 - 30
 1. Review and discuss analysis of streaming scenarios captured so far (VPN, no VPN, different providers, different video qualities, noisy vs. "clean")
 2. Discuss the negative use case - no video streaming (VPN and no VPN)
 
-> ### **<mark>UPDATED!</mark>** Week 4 Participation Homework
-> 1. Pull the latest version of network-stats from the git repo (https://github.viasat.com/Viasat/network-stats) and verify that it's working for you.
->     * Report any weirdness in the Slack channel!
-> 2. Capture a total of **30 minutes** of general internet activity (no video streaming) without VPN.
-> 3. Capture a total of **30 minutes** of video streaming with VPN.
-> 4. EDA your captures, and create a slide presentation with 2-3 visualizations for general internet activity, and 2-3 visualizations for streaming.  Annotate your charts with your observations.
->    * **Focus on the extended part of the output for this week's analysis.**
-> 5. Upload your assignments to Canvas.
-> 6. Zip all your CSV files and upload to the new "Good Data" subfolder in Google Drive.
-> 
-> **NOTE:**  30 minutes of data should be split into 6 CSV files each containing 5 minutes of capture data.
-> 
-> ***Tips for packet captures***
-> * Run network-stats in extended output CSV mode (`-e <filename>`)
-> * Start network-stats *before* starting to play the video. 
+### Week 4 Participation Homework
+1. Pull the latest version of network-stats from the git repo (https://github.viasat.com/Viasat/network-stats) and verify that it's working for you.
+    * Report any weirdness in the Slack channel!
+2. Capture a total of **30 minutes** of general internet activity (no video streaming) without VPN.
+3. Capture a total of **30 minutes** of video streaming with VPN.
+4. EDA your captures, and create a slide presentation with 2-3 visualizations for general internet activity, and 2-3 visualizations for streaming.  Annotate your charts with your observations.
+   * **Focus on the extended part of the output for this week's analysis.**
+5. Upload your assignments to Canvas.
+6. Zip all your CSV files and upload to the new "Good Data" subfolder in Google Drive.
+
+**NOTE:**  30 minutes of data should be split into 6 CSV files each containing 5 minutes of capture data.
+
+***Tips for packet captures***
+* Run network-stats in extended output CSV mode (`-e <filename>`)
+* Start network-stats *before* starting to play the video. 
 
 
 <br />
 <br />
 
 ## Week 5: What is the typical pattern of video streaming WITH vpn?
+**<mark>UPDATED!</mark>**
 Nov 2 - 6
 
-Same as week 4 but ***WITH VPN***
+> ### Discussion topics:
+> 1. Checkpoint 1 - 10 mins open Q&A
+> 2. EDA findings from last week
+> 3. Data labels, parameter permutations, responsibilties of data scientists re: data collection
+> 4. Halfway mark!  A look ahead.
+ 
+ <br />
+
+> ### **<mark>NEW!</mark>** Week 5 Participation Homework
+> 
+> 1. Look for patterns that suggest streaming is occurring (vs. web browsing, etc)
+> 2. Write code to extract data.
+> 3. Feature engineer the pattern(s).
+> 4. As before, zip and upload any new network-stats captures the new "Good Data" subfolder in Google Drive.
+
 
 <br />
 <br />
 
 ## Week 6: Increase complexity of streaming conditions
 Nov 9 - 13
-1. Iterate steps to look at differences in:
-  * provider
-  * platform
-  * clean vs noisy
 
 <br />
 <br />
@@ -159,7 +170,6 @@ Nov 23 - 27
 ## Week 9
 Nov 30 - Dec 4
 1. Present plan for next quarter
-2. Consider network-stats extended outputs
 
 <br />
 <br />
