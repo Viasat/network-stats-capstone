@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-4-exploring-the-negative-use-case)
+## Jump to [Current week!](#week-5-what-is-the-typical-pattern-of-video-streaming-withvpn)
 
 <br />
 <br />
