@@ -127,35 +127,47 @@ Oct 26 - 30
 <br />
 
 ## Week 5: What is the typical pattern of video streaming WITH vpn?
-**<mark>UPDATED!</mark>**
 Nov 2 - 6
 
-> ### Discussion topics:
-> 1. Checkpoint 1 - 10 mins open Q&A
-> 2. EDA findings from last week
-> 3. Data labels, parameter permutations, responsibilties of data scientists re: data collection
-> 4. Halfway mark!  A look ahead.
+### Discussion topics:
+1. Checkpoint 1 - 10 mins open Q&A
+2. EDA findings from last week
+3. Data labels, parameter permutations, responsibilties of data scientists re: data collection
+4. Halfway mark!  A look ahead.
  
  <br />
 
-> ### **<mark>NEW!</mark>** Week 5 Participation Homework
-> 
-> 1. Look for patterns that suggest streaming is occurring (vs. web browsing, etc)
-> 2. Write code to extract data.
-> 3. Feature engineer the pattern(s).
-> 4. As before, zip and upload any new network-stats captures the new "Good Data" subfolder in Google Drive.
+### Week 5 Participation Homework
 
+1. Look for patterns that suggest streaming is occurring (vs. web browsing, etc)
+2. Write code to extract data.
+3. Feature engineer the pattern(s).
+4. As before, zip and upload any new network-stats captures the new "Good Data" subfolder in Google Drive.
 
 <br />
 <br />
 
-## Week 6: Increase complexity of streaming conditions
+## Week 6: Binary Classifiers
+**<mark>NEW!</mark>**  
 Nov 9 - 13
 
+> ### Discussion Topics:
+> 1. Review feature engineering efforts thus far (using HW notebooks)
+> 2. Talk through formulation of classifiers
+
+<br />
+
+> ### Week 6 Participation Homework:
+> 1. Create a classifier that can take `network-stats` data files as input, and outputs whether or not there is video streaming.
+> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container.
+>    * You should be able to run your classifier on any other students' data
+> 3. Provide classifications and confidence levels
+
+
 <br />
 <br />
 
-## Week 7: Continue efforts from week 6
+## Week 7: Apply classifier to VPN use cases
 Nov 16 - 20
 
 <br />
