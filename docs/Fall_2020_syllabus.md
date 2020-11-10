@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-5-what-is-the-typical-pattern-of-video-streaming-withvpn)
+## Jump to [Current week!](#week-6-binary-classifiers)
 
 <br />
 <br />
