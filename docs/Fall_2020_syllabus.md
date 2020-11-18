@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-6-binary-classifiers)
+## Jump to [Current week!](#week-7-binary-classifiers)
 
 <br />
 <br />
@@ -148,33 +148,57 @@ Nov 2 - 6
 <br />
 
 ## Week 6: Binary Classifiers
-**<mark>NEW!</mark>**  
 Nov 9 - 13
 
-> ### Discussion Topics:
-> 1. Review feature engineering efforts thus far (using HW notebooks)
-> 2. Talk through formulation of classifiers
+### Discussion Topics:
+1. Review feature engineering efforts thus far (using HW notebooks)
+2. Talk through formulation of classifiers
 
 <br />
 
-> ### Week 6 Participation Homework:
-> 1. Create a classifier that can take `network-stats` data files as input, and outputs whether or not there is video streaming.
-> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container.
->    * You should be able to run your classifier on any other students' data
-> 3. Provide classifications and confidence levels
+### Week 6 Participation Homework:
+1. Create a classifier that can take `network-stats` data files as input, and outputs whether or not there is video streaming.
+2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container.
+   * You should be able to run your classifier on any other students' data
+3. Provide classifications and confidence levels
 
 
 <br />
 <br />
 
-## Week 7: Apply classifier to VPN use cases
+## Week 7: Binary Classifiers
+**<mark>NEW!</mark>**  
 Nov 16 - 20
 
+> ### Discussion:
+> 1. Domain knowledge review
+> 2. HW 6 review, highlighting feature engineering and ML outcomes
+> 3. Project Proposal: Base case (binary classifier) plus extension
+>     * What is minimum amount of data needed to make a binary classifier?
+>     * What else can be classified (video provider, content, resolution, steady state vs. start up buffering, rebuffers/skips ahead in content)?
+>     * What can of noise can be tolerated (noise limits)?
+
+> ### Assignment:
+> Iterate and improve your binary classifier
+> 
+> 1.  Create a classifier that can take network-stats data files as input, and outputs whether or not there is video streaming.
+>     * You should be able to run your classifier on any other students’ data
+>     * Provide instructions in README on how to run your model
+> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
+> 3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
+> 4. Submission will be 2+ Google Slides with key results, annotated
+>     * Include link to your GitHub model and docker container
+>     * Include enough code snippets to convey understanding of how results were produced
+
+
+
 <br />
 <br />
 
-## Week 8: Thanksgiving Break
+## Week 8: Thanksgiving Week
 Nov 23 - 27
+### Discussion
+We will be holding discussion this week!  Make sure you attend.
 
 <br />
 <br />
