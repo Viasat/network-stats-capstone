@@ -167,38 +167,56 @@ Nov 9 - 13
 <br />
 
 ## Week 7: Binary Classifiers
-**<mark>NEW!</mark>**  
 Nov 16 - 20
 
-> ### Discussion:
-> 1. Domain knowledge review
-> 2. HW 6 review, highlighting feature engineering and ML outcomes
-> 3. Project Proposal: Base case (binary classifier) plus extension
->     * What is minimum amount of data needed to make a binary classifier?
->     * What else can be classified (video provider, content, resolution, steady state vs. start up buffering, rebuffers/skips ahead in content)?
->     * What can of noise can be tolerated (noise limits)?
+### Discussion:
+1. Domain knowledge review
+2. HW 6 review, highlighting feature engineering and ML outcomes
+3. Project Proposal: Base case (binary classifier) plus extension
+    * What is minimum amount of data needed to make a binary classifier?
+    * What else can be classified (video provider, content, resolution, steady state vs. start up buffering, rebuffers/skips ahead in content)?
+    * What can of noise can be tolerated (noise limits)?
 
-> ### Assignment:
-> Iterate and improve your binary classifier
-> 
-> 1.  Create a classifier that can take network-stats data files as input, and outputs whether or not there is video streaming.
->     * You should be able to run your classifier on any other students’ data
->     * Provide instructions in README on how to run your model
-> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
-> 3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
-> 4. Submission will be 2+ Google Slides with key results, annotated
->     * Include link to your GitHub model and docker container
->     * Include enough code snippets to convey understanding of how results were produced
+### Assignment:
+Iterate and improve your binary classifier
 
+1.  Create a classifier that can take network-stats data files as input, and outputs whether or not there is video streaming.
+    * You should be able to run your classifier on any other students’ data
+    * Provide instructions in README on how to run your model
+2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
+3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
+4. Submission will be 2+ Google Slides with key results, annotated
+    * Include link to your GitHub model and docker container
+    * Include enough code snippets to convey understanding of how results were produced
 
 
 <br />
 <br />
 
-## Week 8: Thanksgiving Week
+## Week 8: Binary Classifiers, Q2 Project Proposals
+**<mark>NEW!</mark>**  
+### Thanksgiving Week
 Nov 23 - 27
 ### Discussion
 We will be holding discussion this week!  Make sure you attend.
+
+### Discussion:
+1. Domain knowledge review
+2. HW 7 review
+3. Q2 Project Proposals review
+
+### Assignment:
+1. Iterate and improve your binary classifier
+    * You should be able to run your classifier on any other students’ data
+    * Provide instructions in README on how to run your model
+2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
+3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
+4. Submission will be 2+ Google Slides with key results, annotated
+    * Include link to your GitHub model and docker container
+    * Include enough code snippets to convey understanding of how results were produced
+
+
+
 
 <br />
 <br />
