@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-7-binary-classifiers)
+## Jump to [Current week!](#week-8-binary-classifiers-q2-project-proposals)
 
 <br />
 <br />
