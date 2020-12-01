@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-8-binary-classifiers-q2-project-proposals)
+## Jump to [Current week!](#week-9-binary-classifiers-q2-project-proposals)
 
 <br />
 <br />
@@ -194,7 +194,6 @@ Iterate and improve your binary classifier
 <br />
 
 ## Week 8: Binary Classifiers, Q2 Project Proposals
-**<mark>NEW!</mark>**  
 ### Thanksgiving Week
 Nov 23 - 27
 ### Discussion
@@ -221,9 +220,43 @@ We will be holding discussion this week!  Make sure you attend.
 <br />
 <br />
 
-## Week 9
+## Week 9: Binary Classifiers, Q2 Project Proposals
+**<mark>NEW!</mark>**  
 Nov 30 - Dec 4
-1. Present plan for next quarter
+### Discussion:
+> At this point the quarter we have two main areas of focus:  Your binary classifiers and your Q2 project proposals.
+
+#### **Binary Classifiers**
+
+> Your binary classifiers are the main thrust of your Q1 work that will be documented in your Final Replication reports.  The work you did for Checkpoint 1 and Checkpoing 2 reports (and our feedback) should help guide you to a solid final report according to Prof. Fraenkel's guidelines.  See [Quarter 1 Replication](https://dsc-capstone.github.io/assignments/quarter-1-replication/#final-report) for more info.
+
+> You should be able to run your classifiers on any other students' data and get similar results.  If you do not feel you have enough data, then use network-stats to generate all the data you need for all the traffic scenarios you need.
+
+> *NOTE* - By this time it should be very obvious that we are only interested in classifying traffic in a VPN tunnel.
+
+#### **Q2 Project Proposals**
+> Your Q2 project topics & teams have been set.  Your Q2 projects represent potential valuable applications of your classifiers.  We want to help ensure your teams finish Q1 with very strong Q2 project proposals.
+
+> Each team's proposal is expected to contain a project schedule that includes weekly tasks & expected results/outcomes.
+
+> For Q1, in addition to submitting a well-thought-out and comprehensive Project Proposal, each team is expected to deliver an Elevator Pitch - submitted in writing to Canvas and delivered orally to the Viasat team.
+
+> We expect these Elevator Pitches to be delivered during our Friday office hours, not during our Wednesday discussion section.
+
+> You can rehearse your elevator pitches or get feedback from us this week, with the final version to be delivered during (or before) next Friday's Office Hours.
+
+
+### Assignment:
+> 1. Iterate and improve your binary classifier
+>     * You should be able to run your classifier on any other students’ data
+>     * Provide instructions in README on how to run your model
+> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
+> 3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
+> 4. Submission will be 2+ Google Slides with key results, annotated
+>     * Include link to your GitHub model and docker container
+>     * Include just enough code snippets to convey understanding of how results were produced
+>         * We don't need or want to see full jupyter notebooks with queries & dataframe printouts.
+
 
 <br />
 <br />
