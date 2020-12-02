@@ -241,21 +241,14 @@ Nov 30 - Dec 4
 
 > For Q1, in addition to submitting a well-thought-out and comprehensive Project Proposal, each team is expected to deliver an Elevator Pitch - submitted in writing to Canvas and delivered orally to the Viasat team.
 
-> We expect these Elevator Pitches to be delivered during our Friday office hours, not during our Wednesday discussion section.
-
-> You can rehearse your elevator pitches or get feedback from us this week, with the final version to be delivered during (or before) next Friday's Office Hours.
+> Teams can rehearse elevator pitches or get feedback from us this week during Friday Office Hours, with the final version to be delivered during Section next Wednesday 12/9.
 
 
 ### Assignment:
-> 1. Iterate and improve your binary classifier
->     * You should be able to run your classifier on any other students’ data
->     * Provide instructions in README on how to run your model
-> 2. Produce code in commented git repo that allows for reproduction (by Viasat) in a docker container
-> 3. Provide confusion matrix and explain what the model gets wrong using specific examples from the data
-> 4. Submission will be 2+ Google Slides with key results, annotated
->     * Include link to your GitHub model and docker container
->     * Include just enough code snippets to convey understanding of how results were produced
->         * We don't need or want to see full jupyter notebooks with queries & dataframe printouts.
+> 1. Finish your final replication report
+> 2. Finish your project proposals.
+>    * Proposal contains the elevator pitch and project schedule
+>    * Viasat will expect each team to present both next week.
 
 
 <br />
@@ -263,4 +256,7 @@ Nov 30 - Dec 4
 
 ## Week 10
 Dec 7 - 11
-1. Present results to Viasat
+
+1. Teams Present to Viasat
+    * Each team delivers their elevator pitch and at least the first couple weeks of their detailed task schedule.
+2. Viasat shares our expectations for next quarter.
