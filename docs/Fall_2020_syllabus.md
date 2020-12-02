@@ -228,7 +228,7 @@ Nov 30 - Dec 4
 
 #### **Binary Classifiers**
 
-> Your binary classifiers are the main thrust of your Q1 work that will be documented in your Final Replication reports.  The work you did for Checkpoint 1 and Checkpoing 2 reports (and our feedback) should help guide you to a solid final report according to Prof. Fraenkel's guidelines.  See [Quarter 1 Replication](https://dsc-capstone.github.io/assignments/quarter-1-replication/#final-report) for more info.
+> Your binary classifiers are the main thrust of your Q1 work that will be documented in your Final Replication reports.  The work you did for Checkpoint 1 and Checkpoint 2 reports (and our feedback) should help guide you to a solid final report according to Prof. Fraenkel's guidelines.  See [Quarter 1 Replication](https://dsc-capstone.github.io/assignments/quarter-1-replication/#final-report) for more info.
 
 > You should be able to run your classifiers on any other students' data and get similar results.  If you do not feel you have enough data, then use network-stats to generate all the data you need for all the traffic scenarios you need.
 
@@ -245,7 +245,7 @@ Nov 30 - Dec 4
 
 
 ### Assignment:
-> 1. Finish your final replication report
+> 1. Finish your final replication report.
 > 2. Finish your project proposals.
 >    * Proposal contains the elevator pitch and project schedule
 >    * Viasat will expect each team to present both next week.
