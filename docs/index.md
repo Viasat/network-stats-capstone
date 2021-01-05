@@ -2,8 +2,35 @@
 
 Can machine learning predict when a network user is streaming video through a VPN?
 
-# Fall 2020 Syllabus
-[Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
+# Winter 2021 Syllabus
+[Winter 2021 Syllabus](Winter_2021_syllabus.html) - for a week-by-week summary of assignments and goals.
+
+
+## Team Weekly "Sprint" Status Reports
+For Winter Quarter, our weekly discussion sections will be dedicated to each team presenting a progress status.  Teams are allotted a maximum of 10 minutes each to present.
+
+Each week, a different member of the team will serve as the "PM of the Week".  In addition to the assigned technical contributions, the PM will be responsible for:
+* Tracking task progress for the current week
+* Updating the schedule for the following week (as needed)
+* Creating the status presentation
+* Delivering the presentation and answering all questions during Discussion Section.
+
+**Note: &nbsp; ONLY the "PM of the Week" represents the team during that week's Section.**  This means that everyone on the team needs to be pretty good at communicating with each other, that every team member needs to be pretty up to speed with what everyone else is working on (not just their own stuff).
+
+
+Teams will have a max of 10 minutes to present status.  Each report should include:
+* Progress and accomplishments since last week
+    * Relevant data visualizations, conclusions, and insights are useful to include
+* Obstacles - is anything blocking your progress?
+    * Hopefully there are none to report in Section!  If you get stuck, use Office Hours and Slack to get help from fellow students, TAs, and Viasat.
+    * What was scheduled for this week w/ complete/incomplete status
+* Schedule update - next 3 weeks of schedule, highlighting changes from last week
+    * Schedules should briefly describe the task/deliverable/outcome, who's assigned to do it, and any dependencies on other tasks (needs something else completed first, or something else depends on it)
+
+Each member of the team should be assigned a roughly equivalent amount of "work."
+
+At the end of each presentation, Viasat will announce who the next "PM of the Week" will be for the upcoming week.
+
 
 
 # Mentorship and Guidance
@@ -22,7 +49,10 @@ During the week you may also use Slack to ask questions in the group channel, an
 
 We are all in this together!
 
-
+<br />
+<br />
+<hr />
+<br />
 
 # Background Information
 The primary tool used for data collection will be an open-source python script provided by Viasat called [Network-Stats](https://github.com/viasat/network-stats). This tool allows a student to connect to a local interface on their machine and then spits out second-by-second data for how many bytes and packets flow in each direction (upload/download) for each ‘connection’ (connection here means the 5-tuple of local and remote ip addresses and ports, as well as the protocol bit).
@@ -49,7 +79,18 @@ Wikipedia pages for TCP, UDP, and OSI 7 layer model
 [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)
 
 
-# First Quarter Assignments/Goals:
+
+
+<br />
+<br />
+<hr />
+<br />
+
+# Fall Quarter Archive
+## Fall 2020 Syllabus
+[Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
+
+## First Quarter Assignments/Goals:
 The first task will be to say whether or not a given VPN session contains streaming (Netflix, YouTube, etc.). If this works well, we can start getting more specific by identifying the streaming provider. We might also be able to identify other kinds of traffic like VoIP/VTC or web browsing.
 
 The students can simply fire up `network-stats`, start watching their favorite Netflix show, and then look at the data generated.  Doing this enough times should start revealing the structure of this signature. Once the signature is better understood, students can repeat the experiment, but do so inside a VPN tunnel ([provided by UCSD](https://blink.ucsd.edu/technology/network/connections/off-campus/VPN/index.html)) and notice the signature distortion, if any. They can also add noise to the signal by doing other things while watching tv, like browsing the web, catching up on email or interacting with social media. 
