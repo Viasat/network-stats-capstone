@@ -1,46 +1,43 @@
 # Introduction
 
-Can machine learning predict when a network user is streaming video through a VPN?
+Can machine learning predict when a network user would perceive a degradation of their network's performance?
 
-# Winter 2021 Syllabus
-[Winter 2021 Syllabus](Winter_2021_syllabus.html) - for a week-by-week summary of assignments and goals.
-
-
-## Team Weekly "Sprint" Status Reports
-For Winter Quarter, our weekly discussion sections will be dedicated to each team presenting a progress status.  Teams are allotted a maximum of 10 minutes each to present.
-
-Each week, a different member of the team will serve as the "PM of the Week".  In addition to the assigned technical contributions, the PM will be responsible for:
-* Tracking task progress for the current week
-* Updating the schedule for the following week (as needed)
-* Creating the status presentation
-* Delivering the presentation and answering all questions during Discussion Section.
-
-**Note: &nbsp; ONLY the "PM of the Week" represents the team during that week's Section.**  This means that everyone on the team needs to be pretty good at communicating with each other, that every team member needs to be pretty up to speed with what everyone else is working on (not just their own stuff).
+Students will generate data of network traffic under a variety of network degradation conditions, then build models to detect network issues as they are perceived by users and their devices, not just network speed (and other metrics) between the service provider’s network and the user’s modem.  This will enable service providers to work with their customers to ensure that their actual experience with the Internet is as good as the network can deliver.  This project will use (and possibly extend) a network emulation & data collection tool developed by an HDSI Capstone team last year to generate data and emulate network conditions.
 
 
-Teams will have a max of 10 minutes to present status.  Each report should include:
-* Progress and accomplishments since last week
-    * Relevant data visualizations, conclusions, and insights are useful to include
-* Obstacles - is anything blocking your progress?
-    * Hopefully there are none to report in Section!  If you get stuck, use Office Hours and Slack to get help from fellow students, TAs, and Viasat.
-    * What was scheduled for this week w/ complete/incomplete status
-* Schedule update - next 3 weeks of schedule, highlighting changes from last week
-    * Schedules should briefly describe the task/deliverable/outcome, who's assigned to do it, and any dependencies on other tasks (needs something else completed first, or something else depends on it)
+# Fall 2021 Syllabus
+[Fall 2021 Syllabus](Fall_2021_syllabus.html) - for a week-by-week summary of assignments and goals.
 
-Each member of the team should be assigned a roughly equivalent amount of "work."
 
-At the end of each presentation, Viasat will announce who the next "PM of the Week" will be for the upcoming week.
+## First Quarter Assignments/Goals:
+
+Students will learn about basic TCP/IP networking fundamentals, and will explore several different network degradation scenarios.  Initially we will narrow our exploration to a small number of scenarios, and generate labeled data of the network under these scenarios.  Students will create binary classifiers to detect whether the network degradation scenario is happening.  (For example, whether a data stream represents separate file downloads vs. one single file with missing packet(s), or whether the sender is done sending data vs. there is data being lost in transmission).
+
+
+1. Preparation:
+  * Work through resources provided in the background information 
+  * Read documentation and install the necessary tools
+    * Wireshark [https://www.wireshark.org/](https://www.wireshark.org/)
+    * Docker [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
+    * DANE [https://github.com/dane-tool/dane](https://github.com/dane-tool/dane)
+2. Create data sets:
+  * Using DANE, an open-source tool initially developed by UCSD HDSI capstone studnets in Winter 2021, to emulate various network conditions and generate data about network packet traffic.
+3. Analyze:
+  * Perform exploratory data analysis, feature engineering.
+4. Machine Learning:
+  * Build classifiers to identify current network conditions
 
 
 
 # Mentorship and Guidance
 ## Discussion Sections
-**Wednesdays 10:00a - 10:50a Pacific**.  We meet in Zoom.
+**Wednesdays 10:00a - 10:50a Pacific**.  We meet in SDSC 129E and on Zoom.
+
 
 ## Office Hours
 
 ### TA Office Hours
-Ria Aggarwal is the TA for this course, and she is also available during this time to respond to methodology issues (computer issues, HW submission issues, grading questions, etc) as well as technical questions.
+TBD
 
 ### Viasat Office Hours
 The office hours for this capstone project will be **Fridays 9:00a - 11:00a** Pacific.  During that time there will be 1+ Viasat mentors available to quickly respond to questions posted in Slack, and/or to jump on Slack/Zoom/etc calls as needed.
@@ -55,22 +52,15 @@ We are all in this together!
 <br />
 
 # Background Information
-The primary tool used for data collection will be an open-source python script provided by Viasat called [Network-Stats](https://github.com/viasat/network-stats). This tool allows a student to connect to a local interface on their machine and then spits out second-by-second data for how many bytes and packets flow in each direction (upload/download) for each ‘connection’ (connection here means the 5-tuple of local and remote ip addresses and ports, as well as the protocol bit).
+The primary tool used for data collection will be an open-source utility called DANE, which was originally written by UCSD HDSI capstone students in Winter 2021.  This tool allows you to run experiments with different network conditions that affect network traffic performance.
 
-Students will need to become familiar with the basics of networking, how a VPN works, and how video streaming works.  **Here are a few resources to get started:** 
+Students will need to become familiar with the basics of networking.  **Here are a few resources to get started:** 
 
 ### General Networking:
 PBS has created a series on computer networking that does a good job of explaining the what and why, rather than getting caught in the details on the how:  
 [https://www.youtube.com/watch?v=3QhU9jd03a0](https://www.youtube.com/watch?v=3QhU9jd03a0) (watch at least from 6:30 to the end)
 [https://www.youtube.com/watch?v=AEaKrq3SpW8](https://www.youtube.com/watch?v=AEaKrq3SpW8) (watch at least from beginning to 8:00)
 
-### VPN:
-[https://www.youtube.com/watch?v=CuxyZiSCSfc](https://www.youtube.com/watch?v=CuxyZiSCSfc) (entire video)  
-*Note:* In larger  businesses, VPNs connect office locations of the same company together – not just between companies like talked about in the video.
- 
-### Video Streaming:
-Good references on how video streaming works is almost impossible to find (it is a topic so obscure that most resources you find are oriented toward developers/professionals in streaming, which is far too deep for what we want to do). The following video at least it conveys some of the basic concepts well enough:  
-[https://www.youtube.com/watch?v=9rAPDwGQK5M](https://www.youtube.com/watch?v=9rAPDwGQK5M) (just 0:30 to 4:30 – the rest is marketing material for the folks who made the video)
 
 ### Networking architecture:
 Wikipedia pages for TCP, UDP, and OSI 7 layer model
@@ -78,45 +68,3 @@ Wikipedia pages for TCP, UDP, and OSI 7 layer model
 [https://en.wikipedia.org/wiki/User_Datagram_Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)  
 [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)
 
-
-
-
-<br />
-<br />
-<hr />
-<br />
-
-# Fall Quarter Archive
-## Fall 2020 Syllabus
-[Fall 2020 Syllabus](Fall_2020_syllabus.html) - for a week-by-week summary of assignments and goals.
-
-## First Quarter Assignments/Goals:
-The first task will be to say whether or not a given VPN session contains streaming (Netflix, YouTube, etc.). If this works well, we can start getting more specific by identifying the streaming provider. We might also be able to identify other kinds of traffic like VoIP/VTC or web browsing.
-
-The students can simply fire up `network-stats`, start watching their favorite Netflix show, and then look at the data generated.  Doing this enough times should start revealing the structure of this signature. Once the signature is better understood, students can repeat the experiment, but do so inside a VPN tunnel ([provided by UCSD](https://blink.ucsd.edu/technology/network/connections/off-campus/VPN/index.html)) and notice the signature distortion, if any. They can also add noise to the signal by doing other things while watching tv, like browsing the web, catching up on email or interacting with social media. 
-
-How much noise does this really add? When is the initial signature no longer recognizable? These questions will have to be answered in more precise terms as the students use ML techniques to build classifiers to automatically detect these signatures.
-
-The hope is that the signature created by a given activity on the internet – like streaming – should be unique enough as to distinguish it from other activities. If we can learn these signatures, and the overhead of the VPN tunnel and other ‘noise’ present in the tunnel don’t significantly alter the signature, then we should be able to say whether or not a given activity is happening within a given tunnel.
-
-1. Preparation:
-  * Work through resources provided in the background information 
-  * Read documentation and install Network-Stats software
-    * [https://github.com/Viasat/network-stats](https://github.com/Viasat/network-stats)
-2. Create data sets:
-  * Use Network-Stats on 5-minute video segments
-  * Explore different providers
-  * Explore different content types/formats/resolutions (tv shows, movies, codec, etc.)
-  * With and without VPN
-  * With and without “noise” (content only vs. content while web browsing, gaming, etc.)
-3. Analyze:
-  * Determine signature of video in content only mode
-  * Look at steady state vs. start up buffering
-  * Look at rebuffers/skips ahead in content 
-  * Characterize packet and byte sizes and counts, interpacket intervals, etc.
-  * Repeat steps with noise present (video + web browsing, etc.)
-4. Machine Learning
-  * Build a classifier to label streaming vs no-streaming without noise
-  * Build a classifier to label streaming vs no-streaming with noise
-5. Ethical considerations:
-  * People use VPNs for a reason. What issues arise when we start weakening the ‘P’ in VPN? How far can we take this technology? What should we disclose?
