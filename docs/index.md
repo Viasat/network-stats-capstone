@@ -1,3 +1,9 @@
+---
+layout: default
+title: Network Classification Capstone
+description:  Project Overview and Goals
+---
+
 # Introduction
 
 Can machine learning predict when a network user would perceive a degradation of their network's performance?
