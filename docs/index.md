@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Network Classification Capstone
+title: Network Performance Classification Capstone
 description:  Project Overview and Goals
 ---
 
