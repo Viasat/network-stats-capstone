@@ -27,7 +27,7 @@ Students will learn about basic TCP/IP networking fundamentals, and will explore
     * Docker [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
     * DANE [https://github.com/dane-tool/dane](https://github.com/dane-tool/dane)
 2. Create data sets:
-  * Using DANE, an open-source tool initially developed by UCSD HDSI capstone studnets in Winter 2021, to emulate various network conditions and generate data about network packet traffic.
+  * Using DANE, an open-source tool initially developed by UCSD HDSI capstone students in Winter 2021, to emulate various network conditions and generate data about network packet traffic.
 3. Analyze:
   * Perform exploratory data analysis, feature engineering.
 4. Machine Learning:
@@ -37,7 +37,7 @@ Students will learn about basic TCP/IP networking fundamentals, and will explore
 
 # Mentorship and Guidance
 ## Discussion Sections
-**Wednesdays 10:00a - 10:50a Pacific**.  We meet in SDSC 129E and on Zoom.
+**Wednesdays 10:00a - 10:50a Pacific**.  We meet in SDSC E145 and on Zoom.
 
 
 ## Office Hours
