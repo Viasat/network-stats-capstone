@@ -32,13 +32,13 @@ Sep 27 - Oct 1
 Oct 4 - Oct 8
 ### Discussion topics:
 *  Discuss Wireshark analysis
-*  Docker and DANE
+*  Going deeper with Wireshark packet capture data
 
 <br />
 
 ### Assignment:
-*  Install Docker & DANE
-*  Capture data with DANE and visualize it in your preferred environment (Jupyter, R Studio, Tableau, etc)
+*  Generate packet capture data in Wireshark and export to CSV
+*  Analyze and visualize CSV data
 *  Create a brief (no more than 5 slides) presentation showcasing your DANE-data visualizations and key takeaways.  Be prepared to share your findings in Section next week.
 <br />
 <br />
@@ -46,6 +46,22 @@ Oct 4 - Oct 8
 
 ## Week 3: 
 Oct 11 - Oct 15
+### Discussion topics:
+*  Introduction to DANE and Docker
+
+<br />
+
+### Assignment:
+*  Install Docker and DANE
+*  Capture network traffic data with DANE and visualize it in your preferred environment (Jupyter, R Studio, etc)
+*  Create a brief (no more than 5 slides) presentation showcasing your visualizations and key takeaways.  Be prepared to share your findings in Section next week.
+
+<br />
+<br />
+
+
+## Week 4: 
+Oct 18 - 22  
 ### Discussion topics:
 *  Network degradation scenarios - what are they?  Why do we care?
 *  How to configure DANE to emulate degradation scenarios.
@@ -56,18 +72,6 @@ Oct 11 - Oct 15
 *  Capture network traffic data with DANE for normal and degraded network scenarios.
 *  Analyze and visualize your data in your preferred environment.
 *  Create a brief (no more than 5 slides) presentation showcasing your visualizations and key takeaways.  Be prepared to share your findings in Section next week.
-
-<br />
-<br />
-
-
-## Week 4: 
-Oct 18 - 22  
-### Discussion topics:
-
-<br />
-
-### Assignment:
 
 <br />
 <br />
