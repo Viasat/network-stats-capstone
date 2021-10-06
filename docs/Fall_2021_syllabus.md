@@ -40,6 +40,9 @@ Oct 4 - Oct 8
 *  Generate packet capture data in Wireshark and export to CSV
 *  Analyze and visualize CSV data
 *  Create a brief (no more than 5 slides) presentation showcasing your DANE-data visualizations and key takeaways.  Be prepared to share your findings in Section next week.
+
+**<mark>NOTE</mark>: See [Homework 2 Detailed Instructions](Fall_2021_Week2_HW.html)**
+
 <br />
 <br />
 
