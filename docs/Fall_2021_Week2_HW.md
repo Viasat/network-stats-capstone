@@ -15,7 +15,7 @@ For this week, we are asking you to use the tool of your choice to perform such 
 1.	Right click on the heading of the packet view (the top third) in Wireshark (where “time”, “Source”, “Destination”, “Protocol”, etc. are) and select Column Preferences
 2.	Add three new columns: Source Port, Destination Port, and Transport Protocol. Update the Type field to match what is displayed in the screen capture. Then update Fields and Field Occurrence for “Transport Protocol” to match the screen capture (these might not be editable until a type of Customer is selected). Click OK.
  
-!(Figure 1)[img/hw2fig1.png]
+![Figure 1](img/hw2fig1.png)
 
 3.	Capture some data with Wireshark, as you did last week
 4.	To make things interesting, try watching a video or downloading a file after the capture had been going for several seconds
@@ -23,7 +23,7 @@ For this week, we are asking you to use the tool of your choice to perform such 
 6.	In Wireshark: `File` -> `Export Specified Dissections` -> `CSV…`
 7.	In the window that appears, make sure to select “All Packets” and “Captured” and try to match the Packet Format section
 
-!(Figure 2)[img/hw2fig2.png]
+![Figure 2](img/hw2fig2.png)
 
 8.	Ingest into analytics tool of your choice (read on for requirements to help you choose the right tool)
 9.	Do not close Wireshark! Or, before you do, make sure to save the capture somewhere, so you can re-open it. You will need this capture in Wireshark 
@@ -39,7 +39,7 @@ Check your work with Wireshark by:
 1.	`Statistics` -> `IO Graphs`
 2.	Select a Y Axis of Packets and an Interval of 1 sec
 
-!(Figure 3)[img/hw2fig3.png]
+![Figure 3](img/hw2fig3.png)
 
 3.	Get screen capture
 4.	Double-click on ‘Packets’ to bring a drop-down window and select ‘Bytes’
