@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Network Performance Classification Fall 2020 Syllabus
+title: Network Performance Classification Fall 2021 Syllabus
 description:  Week by week summary of assignments and goals
 ---
 

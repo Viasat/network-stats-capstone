@@ -1,3 +1,8 @@
+---
+layout: default
+title: Network Performance Classification Capstone
+---
+
 # Week 2 Homework
 
 Now that you have explored Wireshark a little bit, we are going to start some basic analysis with data captured in it. One of the things you likely noticed last week was that there are an enormous number of packets, and that is for just a few minutes of data on just your computer. Large files, for example, a video game, can easily exceed 10 million packets in size. As a result, Internet Service Providers never hold onto information about individual packets, instead their data collection tools aggregate packet information as it is being collected.
