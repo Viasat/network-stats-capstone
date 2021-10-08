@@ -17,7 +17,7 @@ For this week, we are asking you to use the tool of your choice to perform such 
 ## Task #0: Prep Work
 
 1.	Right click on the heading of the packet view (the top third) in Wireshark (where “time”, “Source”, “Destination”, “Protocol”, etc. are) and select Column Preferences
-2.	Add three new columns: Source Port, Destination Port, and Transport Protocol. Update the Type field to match what is displayed in the screen capture. Then update Fields and Field Occurrence for “Transport Protocol” to match the screen capture (these might not be editable until a type of Customer is selected). Click OK. <br /> ![Figure 1](img/hw2fig1.png)
+2.	Add three new columns: Source Port, Destination Port, and Transport Protocol. Update the Type field to match what is displayed in the screen capture. Then update Fields and Field Occurrence for “Transport Protocol v4” and “Transport Protocol v6” to match the screen capture (these might not be editable until a type of Customer is selected). Click OK. <br /> ![Figure 1](img/hw2fig1.png)
 3.	Capture some data with Wireshark, as you did last week
 4.	To make things interesting, try watching a video or downloading a file after the capture had been going for several seconds
 5.	Collect about 5 minutes worth of data (doesn’t have to be exact), then stop the capture (red square in top-left)
@@ -53,9 +53,11 @@ For those with a bit of network programming experience: every time a client open
 A connection is uniquely identified by 5 factors (among networking folks, we call this the “5-tuple”):
 * Source IP address (shown as Source in Wireshark’s csv)
 * Destination IP address (shown as Destination in Wireshark’s csv)
-* Transport Protocol
+* Transport Protocol (see Note on Transport Protocol below)
 * Source Port
 * Destination Port
+
+**Note on Transport Protocol**:  The Internet is currently going through an arduous process of upgrading (it has been happening for over a decade!) from 'Internet Protocol version 4' to 'Internet Protocol version 6'. As a result, there is a good chance that you will have a bit of each in your capture. To find the transport protocol, determine which of “Transport Protocol v4” and “Transport Protocol v6” has data in the column, and then use that data as the “Transport Protocol” for all further analysis.
 
 Source Port and Destination Port only make sense when the Transport Protocol is “TCP” or “UDP”. When the transport protocol is neither, the field will either be blank or nonsense.
 
