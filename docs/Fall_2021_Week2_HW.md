@@ -57,7 +57,7 @@ A connection is uniquely identified by 5 factors (among networking folks, we cal
 * Source Port
 * Destination Port
 
-**Note on Transport Protocol**:  The Internet is currently going through an arduous process of upgrading (it has been happening for over a decade!) from 'Internet Protocol version 4' to 'Internet Protocol version 6'. As a result, there is a good chance that you will have a bit of each in your capture. To find the transport protocol, determine which of “Transport Protocol v4” and “Transport Protocol v6” has data in the column, and then use that data as the “Transport Protocol” for all further analysis.
+> **Note on Transport Protocol**:  The Internet is currently going through an arduous process of upgrading (it has been happening for over a decade!) from 'Internet Protocol version 4' to 'Internet Protocol version 6'. As a result, there is a good chance that you will have a bit of each in your capture. To find the transport protocol, determine which of “Transport Protocol v4” and “Transport Protocol v6” has data in the column, and then use that data as the “Transport Protocol” for all further analysis.
 
 Source Port and Destination Port only make sense when the Transport Protocol is “TCP” or “UDP”. When the transport protocol is neither, the field will either be blank or nonsense.
 
