@@ -110,11 +110,9 @@ address will change on every boot.
 2. Look for the IP address: <br />
 ```
 [root@fedora ~]# ip addr | grep enp0
-2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
-state UP group default qlen 1000
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
-3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
-state UP group default qlen 1000`
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`
     inet 192.168.56.102/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
 ```
 3. Use the IP address that starts with “192.168” (in this case, 192.168.56.102, 
