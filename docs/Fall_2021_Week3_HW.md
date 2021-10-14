@@ -84,7 +84,7 @@ On Windows and Mac hosts, it is crucial to be able to SSH into the machine. On a
 
 ### Connect
 1. Within the Ubuntu virtual machine, run “`ip addr | grep eth0`”
-2. Find the IP address in the output (it will be the number after inet string with 172, and before the ‘`/20`’: <br />
+2. Find the IP address in the output (it will be the number after `inet` starting with `172`, and before the ‘`/20`’: <br />
 ```
 4: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
     inet 172.21.144.180/20 brd 172.21.159.255 scope global eth0
@@ -118,7 +118,7 @@ address will change on every boot.
 3. Use the IP address that starts with “192.168” (in this case, 192.168.56.102, 
 but it will probably be different in your case)
 4. Open a terminal window in the Mac OS
-5. ssh &lt;username of Linux VM&gt;@&lt;IP address&gt;
+5. `ssh <username of Linux VM>@<IP address>`
     * For example: `ssh charlie@192.168.56.102`
 6. You can repeat steps 4 and 5 as many times as you would like. Most likely, 
 the IP address will keep working forever, but if you have problems, find the IP
@@ -137,7 +137,7 @@ address again by following steps 1-3.
 # Step #4: Installing DANE
 
 1. `git clone https://github.com/Viasat/dane.git --recursive`
-    * The “`--recursive`" is extremely important!
+    * The `--recursive` is extremely important!
 2. Change directory to the `dane` directory
 3. `sudo make build`
     * Give this about 5 minutes to complete, depending on Internet speed. It needs to download ~300 MB from the Internet.
