@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-2)
+## Jump to [Current week!](#week-3)
 
 <br />
 <br />
@@ -58,6 +58,8 @@ Oct 11 - Oct 15
 *  Install Docker and DANE
 *  Capture network traffic data with DANE and visualize it in your preferred environment (Jupyter, R Studio, etc)
 *  Create a brief (no more than 5 slides) presentation showcasing your visualizations and key takeaways.  Be prepared to share your findings in Section next week.
+
+**<mark>NOTE</mark>: See [Homework 3 Detailed Instructions](Fall_2021_Week3_HW.html)**
 
 <br />
 <br />

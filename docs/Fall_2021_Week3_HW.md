@@ -36,7 +36,7 @@ Subsystem-Linux /all /norestart`
 7. Install Ubuntu 20.04 LTS from Microsoft Store (it is free)  Note:  Installing the Ubuntu application will install the correct version. <br />![Figure 2](img/hw3fig2.png)
 8. <span id="step1-8" />Launch and setup username and password that you’ll remember
 
-## Note about WSL2
+### Note about WSL2
 > As best I can tell, WSL2 does not support Linux’s init system. I haven’t been able to  figure out how start services on bootup. Once you have Docker and SSH server installed in Step 2, you will need you will need to run these commands every time you boot the Ubuntu machine: <br />
 `sudo dockerd &` <br />
 `sudo service ssh start`
@@ -83,7 +83,7 @@ On Windows and Mac hosts, it is crucial to be able to SSH into the machine. On a
 3. Install WinSCP (SFTP Client): [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
 
 ### Connect
-1. Within the Ubuntu virtual machine, run “ip addr | grep eth0”
+1. Within the Ubuntu virtual machine, run “`ip addr | grep eth0`”
 2. Find the IP address in the output (it will be the number after inet string with 172, and before the ‘`/20`’: <br />
 ```
 4: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
@@ -108,13 +108,15 @@ address will change on every boot.
 
 1. Within the Ubuntu virtual machine, run `ip addr | grep enp0`
 2. Look for the IP address: <br />
-`[root@fedora ~]# ip addr | grep enp0`
-`2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
+```
+[root@fedora ~]# ip addr | grep enp0
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
+state UP group default qlen 1000
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
 state UP group default qlen 1000`
-`    inet` <b>`10.0.2.15`</b>`/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3`
-`3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel 
-state UP group default qlen 1000`
-`    inet` <b>`192.168.56.102`</b>`/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8`
+    inet 192.168.56.102/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
+```
 3. Use the IP address that starts with “192.168” (in this case, 192.168.56.102, 
 but it will probably be different in your case)
 4. Open a terminal window in the Mac OS
