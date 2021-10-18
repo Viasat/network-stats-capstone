@@ -26,7 +26,7 @@ Following the direction from here:
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10), relevant steps 
 reproduced below:
 1. Run all commands in PowerShell, run as Administrator. `cmd` is not the same and will not work. <br />![Figure 1](img/hw3fig1.png)
-2. Try: `wsl –install` <br /> If that works, skip to [step 8](#step1-8). <br />If you get an error message, we’ll have to do it manually. Follow steps 3-6. Hint: make sure Windows is at least version 2004 and you install the lastest security patch and there is a good chance this auto install will work!
+2. Try: `wsl –-install -d ubuntu` <br /> If that works, skip to [step 8](#step1-8). <br />If you get an error message, we’ll have to do it manually. Follow steps 3-6. Hint: make sure Windows is at least version 2004 and you install the lastest security patch and there is a good chance this auto install will work!
 3. `dism.exe /online /enable-feature /featurename:Microsoft-Windows-
 Subsystem-Linux /all /norestart`
 4. `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
@@ -149,7 +149,7 @@ address again by following steps 1-3.
 2. `sudo make up`
 3. Wait ~8 minutes for test to complete
 4. Launch a new SSH session to Linux VM (the one that ran step #2 will be blocked)
-5. Change directory to the dane directory
+5. Change directory to the `dane` directory
 6. `sudo make stop`
 
 
@@ -159,4 +159,4 @@ address again by following steps 1-3.
 
 1. Generate time series graphs for two runs of DANE.
 2. Create a short (no more than 5 slides) presentation showing your graphs.  Annotate them to highlight any interesting observations you have about the data.
-3. Identity two or more candidate features you might think about using for a binary classifier
+3. Identity two or more candidate features you might think about using for a binary classifier.
