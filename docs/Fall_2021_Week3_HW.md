@@ -66,6 +66,13 @@ In the virtual machine, run the following on the command line:
 1. `sudo apt update`
 2. `sudo apt upgrade`
 3. `sudo apt install make docker.io docker-compose ssh`
+4. `sudo service ssh stop`
+5. `sudo nano /etc/ssh/sshd_config`
+6. Look for `PasswordAuthentication no` (hint, ctrl-w is search)
+7. Edit no to yes, final result: `PasswordAuthentication yes`
+8. Ctrl-W to save
+9. Ctrl-X to exit
+10. `sudo service ssh start`
 
 <br />
 
