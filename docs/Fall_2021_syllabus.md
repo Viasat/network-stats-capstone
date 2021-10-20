@@ -70,13 +70,15 @@ Oct 18 - 22
 ### Discussion topics:
 *  Network degradation scenarios - what are they?  Why do we care?
 *  How to configure DANE to emulate degradation scenarios.
+*  Looking ahead - what's to expect for the next few weeks and rest of Fall Quarter.
 
 <br />
 
 ### Assignment:
-*  Capture network traffic data with DANE for normal and degraded network scenarios.
+*  Capture network traffic data with DANE for various packet loss scenarios.
 *  Analyze and visualize your data in your preferred environment.
-*  Create a brief (no more than 5 slides) presentation showcasing your visualizations and key takeaways.  Be prepared to share your findings in Section next week.
+*  Identify candidate features for a model to predict packet loss.
+*  Create a brief presentation showcasing your visualizations and key takeaways.  Be prepared to share your findings in Section next week.
 
 <br />
 <br />
@@ -86,10 +88,14 @@ Oct 18 - 22
 Oct 25 - Oct 29
 
 ### Discussion topics:
+*  Building a model to predict packet loss ratio
 
 <br />
 
 ### Assignment:
+*  
+
+
 
 <br />
 <br />
@@ -98,6 +104,7 @@ Oct 25 - Oct 29
 ## Week 6:
 Nov 1 - Nov 5
 ### Discussion topics:
+*  The effect of latency on traffic patterns
 
 <br />
 
