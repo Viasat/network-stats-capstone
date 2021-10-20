@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-3)
+## Jump to [Current week!](#week-4)
 
 <br />
 <br />
