@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-4)
+## Jump to [Current week!](#week-5)
 
 <br />
 <br />
@@ -88,13 +88,17 @@ Oct 18 - 22
 Oct 25 - Oct 29
 
 ### Discussion topics:
+*  DANE, CPU utilization, and other concurrent internet usage
+*  Work in pairs?  Checkpoint 1 status?
 *  Building a model to predict packet loss ratio
 
 <br />
 
 ### Assignment:
-*  
-
+*  Build and train a model to predict packet loss ratio.
+*  Use DANE to generate as much data as you need to sufficiently train and test your model.
+   *  Remember it may be better to run DANE scenarios one or two at a time, vs. try to run too many concurrently.
+*  Share your progress on your model.  Summarize results in a brief presentation (as typical) but also share your notebooks, scripts, etc.
 
 
 <br />
@@ -104,11 +108,19 @@ Oct 25 - Oct 29
 ## Week 6:
 Nov 1 - Nov 5
 ### Discussion topics:
-*  The effect of latency on traffic patterns
+*  Checkpoint 1 review
+*  Packet Loss model review
+*  Adding variability in latency
 
 <br />
 
 ### Assignment:
+
+*  Finish up your packet loss models
+*  Start exploring how modifying latency affects your features & models
+*  Propose (and define!) candidate features for predicting latency.
+   * You may want to start by keeping packet loss fixed and generating data sets for various latencies.
+   *  FYI cable/fiber internet services typically have latencies of 20ms or less (what's yours?).  Geostationary satellites like ours typically have a round trip (to the satellite and back) latency of 260ms or so.
 
 <br />
 <br />
@@ -117,10 +129,18 @@ Nov 1 - Nov 5
 ## Week 7:
 Nov 8 - Nov 12
 ### Discussion topics:
+*  Review Packet Loss models
+*  Latency prediction models - review candidate features
+*  Summarize timeline for the rest of the quarter
+   *  Begin discussion about Q2 project proposals and teams
+   *  Final Replication Report and Final Presentations
 
 <br />
 
 ### Assignment:
+
+*  Build & train a model to detect latency, given a fixed packet loss ratio (you choose the ratio for your initial model)
+
 
 <br />
 <br />
@@ -129,11 +149,15 @@ Nov 8 - Nov 12
 ## Week 8: Q2 Project Proposals
 Nov 15 - 19
 ### Discussion topics:
+*  Review latency prediction model results
 
 <br />
 
 ### Assignment:
-
+*  Extend your models to predict both latency AND packet loss
+*  Use DANE to generate as much data as you need to build, train, and test your models
+*  Summarize model results, including a list (and definitions!) of your features.
+*  Include links to your models (notebooks, scripts, etc)
 <br />
 <br />
 
@@ -144,9 +168,14 @@ Nov 22 - Nov 26
 ### Discussion topics:
 We will be holding discussion this week!  Make sure you attend.
 
+*  Finishing up your latency & packet loss classification models - your results will be documented in your Final Replication Paper.
+*  Continue discussion about Q2 - project proposals and teams
+
 <br />
 
 ### Assignment:
+*  Finish up your latency & packet loss models
+*  Finish up your Q2 project proposals
 
 <br />
 <br />
