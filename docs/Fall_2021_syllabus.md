@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-5)
+## Jump to [Current week!](#week-6)
 
 <br />
 <br />
@@ -179,6 +179,7 @@ We will be holding discussion this week!  Make sure you attend.
 
 <br />
 <br />
+
 ## Week 10
 Nov 29 - Dec 3
 
