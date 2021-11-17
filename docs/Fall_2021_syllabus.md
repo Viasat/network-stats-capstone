@@ -8,7 +8,7 @@ description:  Week by week summary of assignments and goals
 
 <br />
 
-## Jump to [Current week!](#week-6)
+## Jump to [Current week!](#week-8)
 
 <br />
 <br />
@@ -150,6 +150,7 @@ Nov 8 - Nov 12
 Nov 15 - 19
 ### Discussion topics:
 *  Review latency prediction model results
+*  Discuss candidate Q2 project ideas
 
 <br />
 
