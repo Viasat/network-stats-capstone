@@ -163,7 +163,7 @@ Nov 15 - 19
 <br />
 
 
-## Week 9:  Q2 Project Proposals
+## Week 9
 ### Thanksgiving Week
 Nov 22 - Nov 26
 ### Discussion topics:
